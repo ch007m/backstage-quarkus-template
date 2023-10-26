@@ -6,5 +6,5 @@ metadata:
     github.com/project-slug: ch007m/backstage-quarkus-template
 spec:
   type: other
-  lifecycle: unknown
+  lifecycle: development
   owner: quarkus

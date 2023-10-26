@@ -8,7 +8,7 @@ metadata:
     - java
     - quarkus
 spec:
-  owner: service@quarkus.io
+  owner: info@quarkus.io
   type: service
   parameters:
     - title: Provide Information for Application

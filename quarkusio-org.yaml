@@ -12,7 +12,7 @@ spec:
     displayName: Quarkus
     email: info@quarkus.io
     picture: https://www.svgrepo.com/download/342149/quarkus.svg
-    children: [quarkus]
+  children: [quarkus]
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Location

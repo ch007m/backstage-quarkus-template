@@ -60,6 +60,7 @@ spec:
           ui:field: RepoUrlPicker
           ui:options:
             allowedHosts:
+              - localhost
               - localhost:3333
               - gitea.com
 

@@ -50,17 +50,47 @@ spec:
           ui:options:
             allowedKinds:
               - Group
-    - title: Application repository Information
+    - title: Application git repository Information
       required:
+        - orgName
+        - repoName
+        - owner
+        - system
         - repoUrl
       properties:
+        orgName:
+          title: Organization Name
+          type: string
+        repoName:
+          title: Repository Name
+          type: string
+        description:
+          title: Description
+          type: string
+          description: Help others understand what this component is for
+        owner:
+          title: Owner
+          type: string
+          ui:field: EntityPicker
+          ui:options:
+            catalogFilter:
+              kind:
+                - Group
+                - User
+        system:
+          title: System
+          type: string
+          ui:field: EntityPicker
+          ui:options:
+            catalogFilter:
+              kind:
+                - System
         repoUrl:
           title: Repository Location
           type: string
           ui:field: RepoUrlPicker
           ui:options:
             allowedHosts:
-              - localhost
               - localhost:3333
               - gitea.com
 

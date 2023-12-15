@@ -54,8 +54,7 @@ spec:
       required:
         - orgName
         - repoName
-        - owner
-        - system
+        #- owner
         - repoUrl
       properties:
         orgName:
@@ -68,23 +67,23 @@ spec:
           title: Description
           type: string
           description: Help others understand what this component is for
-        owner:
-          title: Owner
-          type: string
-          ui:field: EntityPicker
-          ui:options:
-            catalogFilter:
-              kind:
-                - Group
-                - User
-        system:
-          title: System
-          type: string
-          ui:field: EntityPicker
-          ui:options:
-            catalogFilter:
-              kind:
-                - System
+        #owner:
+        #  title: Owner
+        #  type: string
+        #  ui:field: EntityPicker
+        #  ui:options:
+        #    catalogFilter:
+        #      kind:
+        #        - Group
+        #        - User
+        #system:
+        #  title: System
+        #  type: string
+        #  ui:field: EntityPicker
+        #  ui:options:
+        #    catalogFilter:
+        #      kind:
+        #        - System
         repoUrl:
           title: Repository Location
           type: string

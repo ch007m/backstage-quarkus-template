@@ -76,14 +76,14 @@ spec:
               kind:
                 - Group
                 - User
-        #system:
-        #  title: System
-        #  type: string
-        #  ui:field: EntityPicker
-        #  ui:options:
-        #    catalogFilter:
-        #      kind:
-        #        - System
+        system:
+          title: System
+          type: string
+          ui:field: EntityPicker
+          ui:options:
+            catalogFilter:
+              kind:
+                - System
         repoUrl:
           title: Repository Location
           type: string

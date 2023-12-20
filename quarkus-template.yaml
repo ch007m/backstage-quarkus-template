@@ -91,6 +91,7 @@ spec:
           ui:options:
             allowedHosts:
               - gitea.com
+              - localhost:3333
 
   steps:
     - id: template
